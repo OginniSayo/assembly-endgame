@@ -55,7 +55,7 @@ header > p {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .guess-count, .timer-count {
@@ -222,10 +222,4 @@ button.new-game {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
-}
-
-@media screen and (min-width: 28rem) {
-  .guess-timer-count {
-    font-size: 1rem;
-  }
 }
